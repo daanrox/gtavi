@@ -48,10 +48,17 @@ button {
 }
 
 .container__bg__img{
-    width: 120vw;
+    width: 110vw;
     position: relative;
     top: -100px;
     overflow: hidden;
+}
+
+.container__bg__video{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .mask__container__bg{
@@ -59,7 +66,7 @@ button {
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.95) 25%, rgba(10, 12, 16, 0.3) 50%, rgba(10, 12, 16, 0.85) 95%);
 }
 
 
