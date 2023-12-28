@@ -23,12 +23,21 @@
         <img class="box__left_logo" src="./assets/gtavi-logo.png" alt="Logo oficial do GTA VI" />
         <p class="box__left__paragraph">Grand Theft Auto VI, o próximo capítulo da famosa série de jogos da Rockstar Games.</p>
         <p class="box__left__paragraph"> Ambientado em Vice City, uma versão fictícia de Miami, segue a história de Lucia, a primeira protagonista feminina da franquia, e seu parceiro em um mundo de crime e ação. Com lançamento previsto para 2025 exclusivamente para PlayStation 5 e Xbox Series X/S, o jogo despertou enorme expectativa após vazamentos notáveis em 2022, mantendo os fãs ansiosos pelo próximo capítulo dessa saga de sucesso.</p>
-        <button class="box__left__button">Fale Conosco</button>
+        <button class="box__left__button" id="openButton" onclick="openForm()">Contato</button>
     </div>
 
     <img class="box__right" src="" alt=""  />
 
+    <form class="form" action="https://formsubmit.co/daanielrox@hotmail.com" method="POST">
+        <label>Fale Conosco</label>
+        <input type="text" placeholder="Nome" name="nome" required />
+        <input type="tel" placeholder="Telefone" name="telefone" required />
+        <textarea class="textArea" placeholder="O que podemos te ajudar?" name="info"></textarea>
+        <button onclick="closeForm()">Enviar</button>
+    </form>
 
+    <div class="mask-form"></div>
 
+    <script src="script.js"></script>
 </body>
 </html>

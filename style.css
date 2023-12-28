@@ -118,3 +118,54 @@ button:active {
     display: none;
   }
 }
+
+
+.form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    position: fixed;
+    left: -580px;
+    transition: 1s linear;
+    z-index: 4;
+    height: 500px;
+    width: 90%;
+    max-width: 600px;
+  }
+
+  label{
+    color: rgb(197, 44, 146);
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  
+  input {
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgb(128, 128, 128);
+    padding-left: 10px;
+    outline-color: rgb(197, 44, 146);
+  }
+  
+  textarea {
+    height: 184px;
+    border-radius: 3px;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    outline-color: rgb(197, 44, 146);
+    resize: none;
+    width: 100%;
+  }
+  
+  .mask-form {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  }
